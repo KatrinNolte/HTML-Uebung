@@ -5,10 +5,18 @@
 body {
   font-size: 10;
 }
-.header {
+h1,
+h2,
+h3 {
   font: bolder;
 }
 .h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-stretch: narrower;
+}
+.headerh1 {
+  padding: 16px;
+}
+.main {
+  padding-left: 16;
 }
