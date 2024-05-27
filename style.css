@@ -4,20 +4,54 @@
 }
 body {
   margin: 0px;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 20px 15px;
 }
 h1,
 h2,
 h3 {
+  padding: 48px 16px;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: gainsboro;
 }
-.headerh1 {
-  padding: 16px;
+.Pumuckl {
+  color: orangered;
 }
-.main {
-  padding-left: 16;
+main {
+  padding-left: 38px;
+}
+.nav-link {
+  padding: 4px 8px;
+  color: slategray;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: lightgray;
+}
+
+.nav-link:active {
+  color: white;
+  background-color: grey;
+}
+
+.nav-link {
+  margin-left: 16px;
+}
+
+.main > * + * {
+  margin-top: 48px;
+}
+
+.main > * {
+  border-top: 2px fuchsia;
+}
+
+.main > *:first-child {
+  border-top: none;
 }
