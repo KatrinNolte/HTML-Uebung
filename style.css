@@ -22,6 +22,10 @@ h3 {
 .Pumuckl {
   color: orangered;
 }
+header > p::after {
+  content: " 🧚‍♂️";
+  font-size: 300%;
+}
 main {
   padding-left: 38px;
 }
@@ -49,7 +53,7 @@ main {
 }
 
 .main > * {
-  border-top: 2px fuchsia;
+  border-top: 2px black;
 }
 
 .main > *:first-child {
