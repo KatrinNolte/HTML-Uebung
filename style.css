@@ -2,30 +2,52 @@
   box-sizing: border-box;
   font: bold;
   font: bold;
+  background-color: gainsboro;
 }
 *::selection {
   background-color: black;
   color: aliceblue;
 }
+main {
+  max-width: 35ch;
+}
 body {
   margin: 0px;
-  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 20px 15px;
+  padding: 10px 10px;
+}
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  font-family: "Lobster", sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  font-style: normal;
+  background-color: orangered;
+  color: black;
+}
+header {
+  text-align: center;
 }
 h1,
 h2,
 h3 {
-  padding: 48px 16px;
+  padding: 50px 10px;
   font-family: "Lobster", sans-serif;
+  font-size: 300%;
   font-weight: 400;
   font-style: normal;
-  background-color: gainsboro;
 }
 h1 {
-  font-size: 400%;
+  font-size: 500%;
+}
+h2 {
+  display: fixed;
+  top: 100px;
 }
 .Pumuckl {
   color: orangered;
@@ -34,12 +56,15 @@ header > p::after {
   content: " 🧚‍♂️";
   font-size: 300%;
 }
-main {
-  padding-left: 38px;
+body {
+  padding-left: 60px;
 }
+
 .nav-link {
-  padding: 4px 8px;
+  padding: 5px 10px;
   color: slategray;
+  display: inline-block;
+  border: 2px solid black;
 }
 
 .nav-link:hover {
@@ -52,18 +77,18 @@ main {
   background-color: grey;
 }
 
-.nav-link {
-  margin-left: 16px;
-}
-
-.main > * + * {
+main > * + * {
   margin-top: 48px;
 }
 
-.main > * {
+main > * {
   border-top: 2px black;
 }
 
-.main > *:first-child {
+main > *:first-child {
   border-top: none;
+}
+
+.Unterschrift {
+  text-align: center;
 }
