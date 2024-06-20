@@ -1,22 +1,19 @@
 * {
   box-sizing: border-box;
   font: bold;
-  font: bold;
   background-color: gainsboro;
 }
 *::selection {
   background-color: black;
   color: aliceblue;
 }
-main {
-  max-width: 35ch;
-}
 body {
+  width: 100vw;
   margin: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 10px 10px;
+  padding: 10px 50px;
 }
 aside {
   position: fixed;
@@ -32,13 +29,14 @@ aside {
 }
 header {
   text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 h1,
 h2,
 h3 {
-  padding: 50px 10px;
   font-family: "Lobster", sans-serif;
-  font-size: 300%;
+  font-size: 250%;
   font-weight: 400;
   font-style: normal;
 }
@@ -56,37 +54,25 @@ header > p::after {
   content: " 🧚‍♂️";
   font-size: 300%;
 }
-body {
-  padding-left: 60px;
-}
-
 .nav-link {
-  padding: 5px 10px;
   color: slategray;
+  padding: 5px;
   display: inline-block;
   border: 2px solid black;
 }
-
 .nav-link:hover {
   color: black;
   background-color: lightgray;
 }
-
 .nav-link:active {
   color: white;
   background-color: grey;
 }
-
 main > * + * {
   margin-top: 48px;
 }
-
 main > * {
   border-top: 2px black;
-}
-
-main > *:first-child {
-  border-top: none;
 }
 
 .Unterschrift {
