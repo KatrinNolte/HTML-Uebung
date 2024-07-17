@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box;
+}
+html {
   font: bold;
   background-color: gainsboro;
-  @media screen and (min-width: 786px) {font-size: larger; padding: 1rem 3rem}
-  @media screen and (min-width: 992px) {font-size: large;}
-  @media printer {aside {visibility: hidden}}
-  } 
+  @media screen and (min-width: 786px) {
+    font-size: 1.2rem;
+    background-color: bisque;
+  }
+  @media screen and (min-width: 992px) {
+    font-size: 1.5rem;
+    background-color: gold;
   }
 }
 *::selection {
@@ -87,4 +92,9 @@ main > * {
 }
 .Unterschrift {
   text-align: center;
+}
+@media print {
+  aside {
+    visibility: hidden;
+  }
 }
