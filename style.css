@@ -6,7 +6,8 @@ html {
   background-color: gainsboro;
   @media screen and (min-width: 786px) {
     font-size: 1.2rem;
-    background-color: bisque;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(gold, blanchedalmond);
   }
   @media screen and (min-width: 992px) {
     font-size: 1.5rem;
@@ -40,13 +41,14 @@ aside {
 header {
   text-align: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .Navigation {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
+  margin-bottom: 2rem;
 }
 h1,
 h2,
@@ -58,9 +60,11 @@ h3 {
 }
 h1 {
   font-size: 500%;
+  padding-top: 1rem;
 }
 h2 {
-  top: 20rem;
+  margin: 0;
+  padding: 0;
 }
 .Pumuckl {
   color: orangered;
@@ -74,7 +78,7 @@ header > p::after {
   padding: 2rem;
   margin-right: 2rem;
   display: inline-block;
-  border: 1rem solid black;
+  border: 0.6rem solid black;
 }
 .nav-link:hover {
   color: black;
@@ -84,9 +88,10 @@ header > p::after {
   color: white;
   background-color: grey;
 }
-main > * + * {
-  margin-top: 3rem;
+#Kontakt {
+  padding-bottom: 2rem;
 }
+
 main > * {
   border-top: 2rem black;
 }
@@ -97,4 +102,7 @@ main > * {
   aside {
     visibility: hidden;
   }
+}
+footer {
+  margin-top: 2rem;
 }
